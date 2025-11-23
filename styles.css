@@ -1,0 +1,220 @@
+:root{
+    --mymargin: 300px;
+    --mymargin2: 24px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #d1d1eb;
+    color: #f0f0f0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 18px;
+}
+
+nav {
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    left: 30%;
+    right: 30%;
+}
+
+h1 {
+    color: rgb(240, 240, 240);
+    font-size: 4em;
+    text-align: center;
+    letter-spacing: 1px;
+    padding: 13px 0 0 0;
+}
+
+h2 {
+    color: #f0f0f0;
+    font-size: 24px;
+    letter-spacing: 1px;
+    text-decoration: underline;
+}
+
+h3 {
+    color: black;
+    font-size: 24px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+h4 {
+    color: black;
+    font-size: 24px;
+    letter-spacing: 1px;
+    text-align: left;
+    margin-top: 100px;
+}
+
+h5 {
+    color: black;
+    font-size: 24px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 0 0 0 0;
+}
+
+.p0 {
+    text-align: center;
+    color: black;
+    margin-bottom: 100px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+p {
+    text-align: left;
+    margin-bottom: 0px;
+    font-size: 18px;
+}
+
+.p1 {
+    text-align: center;
+    padding: 0 20px 0 20px;
+    font-size: 18px;
+}
+
+.p2 {
+    text-align: center;
+    padding: 0 25% 13px 20%;
+    font-size: 18px;
+    margin-left: 5%;
+}
+
+ul {
+    text-align: left;
+    font-size: 18px;
+    margin-top: 0px;
+}
+
+ol {
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*Tabs at top*/
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #9acae0;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0a485f;
+    text-decoration: underline;
+}
+
+/*Blue band across screen*/
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
+    margin-left: -8px;
+    margin-bottom: 50px;
+    width: 101%;
+    height: 240%;
+    background-color: #0a485f;
+}
+
+/*Reason boxes set columns*/
+.grid-container {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr;
+    grid-gap: 50px;
+    margin: 0 var(--mymargin, 300) 0 var(--mymargin, 300);
+} 
+
+/*Reason boxes*/
+.grid-child {
+    background-color: #0a485f;
+    padding: 20px 0 20px 0;
+    border-radius: 10px; /*rouned corners*/
+}
+
+/*Sections*/
+.grid-sections-odd {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-gap: 50px;
+    margin: 0 var(--mymargin, 300) 0 var(--mymargin, 300);
+} 
+
+/*Sections*/
+.grid-sections-even {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-gap: 50px;
+    margin: 0 var(--mymargin, 300) 0 var(--mymargin, 300);
+} 
+.grid-Schild {
+    color: black;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+/* used for quotes */
+.quotes {
+    background-color: #9acae0;
+    font-style: italic;
+    font-size: 18px;
+    padding: 15px 15px 15px 15px;
+}
+
+/*References section*/
+.myRef {
+    background-color: #f0f0f0;
+    margin: 100px 300px 0px 300px;
+    padding: 7px 5px 7px 5px;
+    color: black;
+    text-align: left;
+}
+
+.imgstyle1 img {
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 100px;
+    border-radius: 15px;
+    box-shadow: 8px 8px 8px #888888;
+}
+
+.imgstyle2 img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: calc(var(--mymargin2, 24px) + 6px) 0 var(--mymargin2, 24px) 0;
+}
+
+.foia-agency {
+    color: black;
+    background-color: #9acae0;
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lmsection {
+    color: black;
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding: 0 10px 0 10px;
+}
+
+.back2top {
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+}
