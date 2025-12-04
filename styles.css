@@ -80,7 +80,7 @@ p {
 
 .p2 {
     text-align: center;
-    padding: 0 25% 13px 20%;
+    padding: 0 5% 13px 0;
     font-size: 18px;
     margin-left: 5%;
 }
@@ -214,9 +214,16 @@ button:hover {
 .imgstyle1 img {
     max-width: 425px;
     height: auto;
+    width:90vw;
     border-radius: 15px;
     box-shadow: 8px 8px 8px #888888;
 }
+
+/*img {
+    max-width:100%;
+    height:auto;
+    max-height:100%;
+}*/
 
 .foia-agency {
     color: black;
@@ -224,15 +231,14 @@ button:hover {
     background-color: #9acae0;
     border: 1px solid #8ab9cf;
     border-radius: 6px;
-    max-width: 1150px;
+    max-width: 700px;
     height: auto;
     margin: auto;
-
 }
 
 .lmsection {
     color: black;
-    width: 50%;
+    max-width: 700px;
     height: auto;
     margin-left: auto;
     margin-right: auto;
