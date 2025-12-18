@@ -104,6 +104,12 @@ a {
     color: black;
 }
 
+.link1 a {
+    letter-spacing: 1.5px;
+    text-decoration: underline;
+    color: blue;
+}
+
 em{font-style: normal;}
 
 /*Tabs at top*/
