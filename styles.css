@@ -256,6 +256,7 @@ button:hover {
     max-width: 700px;
     height: auto;
     margin: auto;
+    margin-top: 50px;
 }
 
 .lmsection {
